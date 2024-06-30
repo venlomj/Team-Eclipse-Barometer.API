@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barometer.API", "Barometer.API\Barometer.API.csproj", "{40FB4B17-9377-4F9C-9C73-3961E0EC271F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barometer.DAL", "Barometer.Data\Barometer.DAL.csproj", "{928DCC6B-EFCF-4419-900D-E89A46D4750A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barometer.BLL", "Barometer.BLL\Barometer.BLL.csproj", "{3762E4BA-0518-424C-9A3C-B9EFDA67B238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barometer.DTO", "Barometer.DTO\Barometer.DTO.csproj", "{90B47912-54EA-4D57-BB59-51E0ABB8113A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40FB4B17-9377-4F9C-9C73-3961E0EC271F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FB4B17-9377-4F9C-9C73-3961E0EC271F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FB4B17-9377-4F9C-9C73-3961E0EC271F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FB4B17-9377-4F9C-9C73-3961E0EC271F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928DCC6B-EFCF-4419-900D-E89A46D4750A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928DCC6B-EFCF-4419-900D-E89A46D4750A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928DCC6B-EFCF-4419-900D-E89A46D4750A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928DCC6B-EFCF-4419-900D-E89A46D4750A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3762E4BA-0518-424C-9A3C-B9EFDA67B238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3762E4BA-0518-424C-9A3C-B9EFDA67B238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3762E4BA-0518-424C-9A3C-B9EFDA67B238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3762E4BA-0518-424C-9A3C-B9EFDA67B238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B47912-54EA-4D57-BB59-51E0ABB8113A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B47912-54EA-4D57-BB59-51E0ABB8113A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B47912-54EA-4D57-BB59-51E0ABB8113A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B47912-54EA-4D57-BB59-51E0ABB8113A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64E75698-1FB9-4331-87F4-26CBFD16688C}
+	EndGlobalSection
+EndGlobal
